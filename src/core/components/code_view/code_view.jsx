@@ -1,0 +1,38 @@
+import React from "react";
+import Line from "./line";
+import styles from "./code_view.module.css";
+
+const CodeView = () => {
+    return (
+        <div className={styles.code}>
+            <Line lineNo={1}><span className={styles.purple}>class</span> <span className={styles.yellow}>About</span> <span className={styles.white}>{"{"}</span></Line>
+            <Line lineNo={2}><span className={styles.dot}>..</span><span className={styles.grey}>{"//"} I can, because I did.</span></Line>
+            <Line lineNo={3}><span className={styles.dot}>..</span><span className={styles.grey}>{"//"} My vast variety of skills is continuously expanding.</span></Line>
+            <Line lineNo={4}><span className={styles.dot}>..</span><span className={styles.purple}>constructor</span><span className={styles.white}>{"() {"}</span></Line>
+            <Line lineNo={5}><span className={styles.dot}>.....</span><span className={styles.red}>this</span><span className={styles.white}>.</span><span className={styles.green}>name</span> <span className={styles.red}>=</span> <span className={styles.lightGreen}>'Kripa Sindhu Bairagi'</span><span className={styles.white}>;</span></Line>
+            <Line lineNo={6}><span className={styles.dot}>.....</span><span className={styles.red}>this</span><span className={styles.white}>.</span><span className={styles.green}>dateOfBirthTimeStamp</span> <span className={styles.red}>=</span> <span className={styles.orange}>{Date.now() - Date.parse("30 April 1998")}</span><span className={styles.white}>;</span></Line>
+            <Line lineNo={7}><span className={styles.dot}>.....</span><span className={styles.red}>this</span><span className={styles.white}>.</span><span className={styles.green}>email</span> <span className={styles.red}>=</span> <span className={styles.lightGreen}>'kripabairagi0047@gmail.com'</span><span className={styles.white}>;</span></Line>
+            <Line lineNo={8}><span className={styles.dot}>..</span><span className={styles.white}>{"}"}</span></Line>
+            <Line lineNo={9}><span className={styles.dot}>..</span><span className={styles.yellow}>workExperience</span> <span className={styles.white}>{"() {"}</span></Line>
+            <Line lineNo={10}><span className={styles.dot}>....</span><span className={styles.purple}>return</span> <span className={styles.white}>{"["}</span></Line>
+            <Line lineNo={11}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'04-2022 to now'</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'Front-end Developer at Woosh Air'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={12}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'05-2021 to 08-2021'</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'Front-end Developer at BeyondExams'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={13}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'10-2020 to 04-2021'</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'Full-stack Developer at TechWeirdo'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={14}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'04-2020 to 09-2020'</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'Front-end Developer at Stickman Services'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={15}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'03-2019 to'02-2020</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'Front-end Developer at Fagnum'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={16}><span className={styles.dot}>....</span><span className={styles.white}>{"];"}</span></Line>
+            <Line lineNo={17}><span className={styles.dot}>..</span><span className={styles.white}>{"}"}</span></Line>
+            <Line lineNo={18}><span className={styles.dot}>..</span><span className={styles.yellow}>education</span> <span className={styles.white}>{"() {"}</span></Line>
+            <Line lineNo={19}><span className={styles.dot}>....</span><span className={styles.purple}>return</span> <span className={styles.white}>{"["}</span></Line>
+            <Line lineNo={20}><span className={styles.dot}>......</span><span className={styles.white}>{"{"}</span> <span className={styles.lightGreen}>'07-2018 to 08-2022'</span> <span className={styles.white}>:</span> <span className={styles.lightGreen}>'North Eastern Hill University, B.Tech (Information Technology)'</span> <span className={styles.white}>{"},"}</span></Line>
+            <Line lineNo={25}><span className={styles.dot}>....</span><span className={styles.white}>{"];"}</span></Line>
+            <Line lineNo={26}><span className={styles.dot}>..</span><span className={styles.white}>{"}"}</span></Line>
+            <Line lineNo={27}><span className={styles.dot}>..</span><span className={styles.yellow}>skills</span> <span className={styles.white}>{"() {"}</span></Line>
+            <Line lineNo={28}><span className={styles.dot}>....</span><span className={styles.purple}>return</span> <span className={styles.white}>{"["}</span> <span className={styles.lightGreen}>'Flutter'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'Dart'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'BLoC'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'HTML/CSS'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'JavaScript'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'React JS'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'Node JS'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'AWS'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'Firebase'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'NPM'</span><span className={styles.white}>,</span> <span className={styles.lightGreen}>'GIT'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'SPA'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'Clean Architecture'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'MongoDB'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'Express'</span><span className={styles.white}>,</span>  <span className={styles.lightGreen}>'UI/UX'</span><span className={styles.white}>,</span> <span className={styles.cursor}>|</span> <span className={styles.white}>{"];"}</span></Line>
+            <Line lineNo={29}><span className={styles.dot}>..</span><span className={styles.white}>{"}"}</span></Line>
+            <Line lineNo={30}><span className={styles.white}>{"}"}</span></Line>
+        </div>
+    );
+}
+
+export default CodeView;

@@ -1,0 +1,117 @@
+.code {
+    margin-top: 60px;
+}
+
+.line {
+    padding-left: 360px;
+    transition: 0.3s;
+    position: relative;
+    padding-right: 5%;
+}
+
+.line:hover {
+    background-color: #3333339c;
+}
+
+.lineNo {
+    margin-right: 30px;
+    text-align: left;
+    color: #323232;
+    width: 30px;
+    position: absolute;
+    left: 300px;
+}
+
+.purple {
+    color: rgb(135, 104, 236);
+}
+
+.yellow {
+    color: rgb(240, 214, 113);
+}
+
+.white {
+    color: #fff;
+}
+
+.dot {
+    color: #352f4e;
+}
+
+.grey {
+    color: #464646;
+}
+
+.red {
+    color: rgb(255, 34, 34);
+}
+
+.green {
+    color: rgb(44, 138, 44);
+}
+
+.lightGreen {
+    color: rgb(66, 170, 66);
+}
+
+.orange {
+    color: rgb(244, 169, 18);
+}
+
+.cursor {
+    color: #fff;
+    animation-name: blink;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .line {
+        padding-left: 290px;
+    }
+
+    .lineNo {
+        left: 210px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .line {
+        padding-left: 180px;
+    }
+
+    .lineNo {
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .line {
+        padding-left: 95px;
+    }
+
+    .lineNo {
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .line {
+        padding-left: 70px;
+    }
+
+    .lineNo {
+        left: 25px;
+    }
+}

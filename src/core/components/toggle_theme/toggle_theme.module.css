@@ -1,0 +1,56 @@
+.dark,
+.light {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.dark {
+    background-color: rgb(146, 146, 146);
+    box-shadow: 0 0 5px rgb(226, 226, 226);
+}
+
+.light {
+    background-color: rgb(206, 163, 34);
+    box-shadow: 0 0 5px rgb(222, 222, 222);
+}
+
+.messageContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(42, 42, 42, 0.497);
+}
+
+.alert {
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2.2em;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.word {
+    animation-name: appear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-right: 10px;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

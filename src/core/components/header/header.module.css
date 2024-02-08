@@ -1,0 +1,93 @@
+.container {
+    position: relative;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    text-shadow: 0 10px 20px #383838;
+}
+
+.up {
+    animation-duration: 0.5s;
+    animation-name: slideUp;
+    animation-fill-mode: forwards;
+}
+
+.down {
+    animation-duration: 0.5s;
+    animation-name: slideDown;
+    animation-fill-mode: forwards;
+}
+
+.top {
+    top: 0px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.name {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.code {
+    color: var(--primaryColor);
+}
+
+.item {
+    color: var(--grey);
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.item>a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.item>a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes slideUp {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .item {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+.subText {
+    color: var(--grey);
+    font-size: 1.5em;
+}
+
+.bgText {
+    position: absolute;
+    font-size: 12em;
+    color: #221D35;
+    right: 0;
+    top: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+    .subText {
+        font-size: 1.4em;
+    }
+
+    .bgText {
+        font-size: 10em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .subText {
+        font-size: 1.2em;
+    }
+
+    .bgText {
+        font-size: 8em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .subText {
+        font-size: 1em;
+    }
+
+    .bgText {
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subText {
+        font-size: 0.8em;
+    }
+
+    .bgText {
+        font-size: 4em;
+    }
+}

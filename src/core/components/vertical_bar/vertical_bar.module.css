@@ -1,0 +1,41 @@
+.sideBar {
+    width: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    left: 340px;
+}
+
+.circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--primaryColor);
+    transform: translateX(-50%);
+    background-color: #0f0e17;
+    left: 50%;
+}
+
+@media screen and (max-width: 1500px) {
+    .sideBar {
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sideBar {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sideBar {
+        left: 75px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sideBar {
+        left: 50px;
+    }
+}

@@ -1,0 +1,42 @@
+.container {
+    background-color: #191527;
+    position: relative;
+    padding-left: 380px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.header {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.listContainer {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    .container {
+        padding-left: 290px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding-left: 180px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding-left: 95px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-left: 70px;
+    }
+}
