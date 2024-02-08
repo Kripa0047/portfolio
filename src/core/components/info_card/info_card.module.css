@@ -9,7 +9,7 @@
 }
 
 .card>p {
-    color: #fff;
+    color: rgb(164, 164, 164);
     width: 600px;
 }
 
@@ -17,6 +17,11 @@
     width: 600px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.contribution {
+    color: rgb(255, 255, 255) !important;
+    margin-top: 6px;
 }
 
 @media screen and (max-width: 1500px) {
